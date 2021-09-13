@@ -3,10 +3,10 @@
 ## Deep Learning For Predicting Laboratory Earthquakes and Autoregressively Forecasting Fault Zone Stress State 
 
 #### Laurenti, Tinti, Galasso, Franco, Marone 
-Faculty of Information Engineering, Informatics, and Statistics. Sapienza University of Rome, Italy   \\
-Department of Computer Science. Sapienza University of Rome (IT) \\
-Earth Science Department. Sapienza University of Rome (IT) \\
-Earth Science Department. PennState University (PA) \\
+Faculty of Information Engineering, Informatics, and Statistics. Sapienza University of Rome, Italy <br/>
+Department of Computer Science. Sapienza University of Rome (IT) <br/>
+Earth Science Department. Sapienza University of Rome (IT) <br/>
+Earth Science Department. PennState University (PA) <br/>
 
 ## Abstract
 
