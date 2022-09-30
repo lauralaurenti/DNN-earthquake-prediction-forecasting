@@ -11,5 +11,15 @@ Earthquake forecasting and prediction have long and in some cases sordid histori
 
 
 
-## Code will be released soon!
+## Code information
+
+Prediction (section 4.1 of the paper): 
+- The notebook generic_prediction.ipynb uses .csv files that are in the same directory  “prediction”, they are preprocessed  according to Hulbert [REF] procedure. The code allows the user to choose the experiment of interest and the target. It is also possible to choose 2 targets at the same time. 
+
+Forecasting (section 4.2  of the paper): 
+- transformer folder comes directly  from https://github.com/FGiuliari/Trajectory-Transformer/tree/master/transformer [Giuliari, F., Hasan, I., Cristani, M., Galasso, F., 2020. Transformer networks for trajectory forecasting. arXiv:2003.08111]
+Data can be downloaded from https://sites.psu.edu/chasbolton/. Only the data about shear stress is utilized (i.e. "MechData.mat" files for experiments p4581, p5198, p4679).
+File “utils.py” contains functions to preprocess data and split into train/validation/test datasets. It also includes the classes for the models and functions used by them. The notebook generic_forecasting.ipynb allows the user to choose the experiment and the model of interest. Files in .pt format called "TF_pretrained_bestmodel_" are the model used by the pretrained transformer
+
+
 
