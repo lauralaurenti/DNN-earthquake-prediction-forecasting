@@ -17,7 +17,7 @@ Prediction (section 4.1 of the paper):
 - The notebook generic_prediction.ipynb uses .csv files that are in the same directory  “prediction”, they are preprocessed  according to Hulbert [Rouet-Leduc, B., Hulbert, C., Lubbers, N., Barros, K., Humphreys, C.J., Johnson, P.A., 2017. Machine learning predicts laboratory earthquakes. Geophysical Research Letters 44, 9276–9282. doi:https://doi.org/10.1002/2017GL074677] procedure. The code allows the user to choose the experiment of interest and the target. It is also possible to choose 2 targets at the same time. 
 
 Forecasting (section 4.2  of the paper): 
-- transformer folder comes directly  from https://github.com/FGiuliari/Trajectory-Transformer/tree/master/transformer [Giuliari, F., Hasan, I., Cristani, M., Galasso, F., 2020. Transformer networks for trajectory forecasting. arXiv:2003.08111]
+- transformer folder comes directly  from https://github.com/FGiuliari/Trajectory-Transformer/tree/master/transformer [Giuliari, F., Hasan, I., Cristani, M., Galasso, F., 2020. Transformer networks for trajectory forecasting. arXiv:2003.08111]. 
 Data can be downloaded from http://psudata.s3-website.us-east-2.amazonaws.com/. Only the data about shear stress is utilized (e.g. "p4581_AE.mat" file for experiment p4581).
 File “utils.py” contains functions to preprocess data and split into train/validation/test datasets. It also includes the classes for the models and functions used by them. The notebook generic_forecasting.ipynb allows the user to choose the experiment and the model of interest. Files in .pt format called "TF_pretrained_bestmodel_" are the model used by the pretrained transformer
 
