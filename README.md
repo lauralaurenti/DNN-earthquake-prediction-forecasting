@@ -18,7 +18,7 @@ Prediction (section 4.1 of the paper):
 
 Forecasting (section 4.2  of the paper): 
 - transformer folder comes directly  from https://github.com/FGiuliari/Trajectory-Transformer/tree/master/transformer [Giuliari, F., Hasan, I., Cristani, M., Galasso, F., 2020. Transformer networks for trajectory forecasting. arXiv:2003.08111]
-Data can be downloaded from [https://sites.psu.edu/chasbolton/](http://psudata.s3-website.us-east-2.amazonaws.com/). Only the data about shear stress is utilized (e.g. "p4581_AE.mat" file for experiment p4581).
+Data can be downloaded from http://psudata.s3-website.us-east-2.amazonaws.com/. Only the data about shear stress is utilized (e.g. "p4581_AE.mat" file for experiment p4581).
 File “utils.py” contains functions to preprocess data and split into train/validation/test datasets. It also includes the classes for the models and functions used by them. The notebook generic_forecasting.ipynb allows the user to choose the experiment and the model of interest. Files in .pt format called "TF_pretrained_bestmodel_" are the model used by the pretrained transformer
 
 
